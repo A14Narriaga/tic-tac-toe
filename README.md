@@ -22,3 +22,9 @@ npx ng lint --format
 ```
 npx ng add @angular/pwa 
 ```
+# Github pages
+```
+npm install -g angular-cli-ghpages
+npx ng build --base-href "https://a14narriaga.github.io/tic-tac-toe/"
+npx ngh --dir dist/tic-tac-toe
+```
