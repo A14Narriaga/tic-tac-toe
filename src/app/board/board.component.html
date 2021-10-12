@@ -1,0 +1,17 @@
+<section class="board">
+
+  <button (click)="newGame()">Start new game</button>
+
+  <h1>It is your turn: {{ player }}</h1>
+
+  <h2 *ngIf="winner">Player {{ winner }} won the game!</h2>
+
+  <main>
+    <app-square
+      *ngFor="let val of squares; let i = index"
+      [value]="val"
+      (click)="makeMove(i)"
+    >
+    </app-square>
+  </main>
+</section>

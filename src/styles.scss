@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600&display=swap");
+
+$background-color: #05706b;
+$text-color: black;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: "Baloo Paaji 2", monospace;
+}
+
+body {
+  margin: 0 auto;
+  background: $background-color;
+  color: $text-color;
+}
